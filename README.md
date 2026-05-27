@@ -10,7 +10,7 @@
 
 **India ka free AI tutor — koi bhi doubt, turant samadhan** 🚀
 
-[Live Demo](#) • [Report Bug](../../issues) • [Request Feature](../../issues)
+[Live Demo](http://localhost:3000) • [Report Bug](../../issues) • [Request Feature](../../issues)
 
 </div>
 
