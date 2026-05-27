@@ -84,7 +84,7 @@ Subject: ${subject}. Respond in: ${lang}.
 Rules: Always respond in ${lang}. Give clear step-by-step explanations. Use simple language. Show working for math/science. Use examples relatable to Indian students. Be encouraging. Use **bold** for key terms.`;
 
     try {
-      const apiKey = "AIzaSyCHlehSDMXjPWALSKEUHqecVvE6knbDGec";
+      const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY || "";
 
       const res = await fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
